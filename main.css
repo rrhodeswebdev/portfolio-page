@@ -101,7 +101,7 @@ img {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .projects h2 {
@@ -156,4 +156,21 @@ img {
   font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 0.5rem;
+}
+
+.skills {
+  margin: 4rem 0;
+}
+
+.skills-wrapper h2 {
+  font-size: 2.8rem;
+  font-weight: 100;
+  margin: 4rem;
+}
+
+.skills-front h3,
+.skills-back h3 {
+  font-size: 2.4rem;
+  font-weight: 100;
+  margin: 2rem 0 0 4rem;
 }
