@@ -37,6 +37,7 @@ nav {
 }
 
 img {
+  border: 1px solid black;
   margin-left: 4rem;
   margin-right: 4rem;
   width: 75%;
