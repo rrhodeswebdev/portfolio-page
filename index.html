@@ -10,32 +10,38 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
   <script src='https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js'></script>
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <title>Ryan Rhodes - Full Stack JavaScript Developer</title>
 </head>
 
 <body>
   <header>
     <span class='type-it'></span>
+    <div id='head-icon' class='header-icon'>
+      <a href='#about'>
+        <i class="fas fa-caret-down down-icon animated infinite pulse"></i>
+      </a>
+    </div>
   </header>
   <nav>
     <div class='nav'>
       <div class='nav-links'>
         <ul class='nav-links-list'>
-          <li>
+          <li id='nav-about'>
             <a href='#about'>
               About
             </a>
           </li>
-          <li>
+          <li id='nav-projects'>
             <a href='#projects'>
               Projects
             </a>
           </li>
-          <a href='#skills'>
-            <li>
+          <li id='nav-skills'>
+            <a href='#skills'>
               Skills
-            </li>
-          </a>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -56,6 +62,9 @@
         <a href='https://www.linkedin.com/in/ryanrhodes89/' target='_blank'>
           <i class="fab fa-linkedin-in"></i>
         </a>
+        <a href='mailto:rrhodes.webdev'>
+          <i class="far fa-envelope" target='_blank'></i>
+        </a>
       </div>
     </section>
     <section id='projects' class='projects'>
@@ -71,9 +80,15 @@
                 of their outreach success through visual graphs and cards. Link Brain also allows users to build campaigns
                 to house contacts, and allow the contacts to be sorted by multiple data points.</p>
               <p>
-                <a href='https://github.com/rrhodeswebdev/hiker-helper' target='_blank'>
-                  <i class="fab fa-github"></i>
-                </a>
+                <span class='project-home-link'>
+                  <a href=''>Visit App</a>
+                </span> |
+                <span class='project-code-link'>
+                  <a href='https://github.com/rrhodeswebdev/hiker-helper' target='_blank'>
+                    <i class="fab fa-github"></i>
+                  </a>
+                </span>
+                </span>
               </p>
             </div>
             <div class='project-skills'>
@@ -212,17 +227,60 @@
     <section id='skills' class='skills'>
       <div class='skills-wrapper'>
         <h2>My Knowledge Includes...</h2>
+        <hr>
         <div class='skills-info'>
           <div class='skills-front'>
             <h3>FrontEnd Development</h3>
+            <ul>
+              <li>
+                HTML5
+              </li>
+              <li>
+                CSS3
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                React
+              </li>
+              <li>
+                jQuery
+              </li>
+              <li>
+                ES6
+              </li>
+              <li>
+                Redux
+              </li>
+            </ul>
           </div>
           <div class='skills-back'>
             <h3>BackEnd Development</h3>
+            <ul>
+              <li>
+                Node JS
+              </li>
+              <li>
+                Express
+              </li>
+              <li>
+                MongoDB
+              </li>
+              <li>
+                Mongoose
+              </li>
+              <li>
+                REST APIs
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
   </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src='index.js'></script>
 </body>
 
