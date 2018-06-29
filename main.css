@@ -39,6 +39,7 @@ header {
 
 .down-icon {
   bottom: 0;
+  font-size: 1.6rem;
   margin-bottom: 2rem;
   position: absolute;
 }
