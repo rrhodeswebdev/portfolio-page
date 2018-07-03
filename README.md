@@ -1,5 +1,5 @@
 # Ryan Rhodes Portfolio
-https://github.com/rrhodeswebdev/portfolio-page
+https://rrhodeswebdev.github.io/portfolio-page/
 
 ## Technologies Used
 
