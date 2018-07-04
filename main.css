@@ -145,9 +145,12 @@ img {
 }
 
 .project-home-link {
-  background-color: black;
   margin-right: 1.5rem;
   padding: 0.5rem;
+}
+
+.project-home-link a {
+  color: black;
 }
 
 .project-code-link {
