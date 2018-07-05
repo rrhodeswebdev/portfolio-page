@@ -139,7 +139,7 @@ img {
 
 .project-main-details {
   flex: 1;
-  margin: 4rem 0;
+  margin: 4rem 0 0 0;
   padding: 2rem;
 }
 
@@ -253,18 +253,19 @@ img {
 .skills-back ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   font-size: 3.2rem;
   font-weight: 100;
   justify-content: center;
   margin: 2rem 0;
-  text-align: center;
 }
 
 .skills-front ul li,
 .skills-back ul li {
   list-style: none;
   margin: 0.5rem 0;
-  padding-right: 2rem;
+  padding: 0 2rem;
+  text-align: center;
 }
 
 footer {
@@ -317,19 +318,18 @@ footer a {
   .project-skills {
     margin-top: 0;
   }
+  .project-skills ul {
+    justify-content: center;
+  }
+  .project-skills ul li {
+    padding: 0 1rem;
+  }
   .skills {
     margin: 0 2rem;
-  }
-  .skills-front ul,
-  .skills-back ul {
-    columns: 1;
   }
   .skills-front h3,
   .skills-back h3 {
     margin: 4rem 0 0 0;
-  }
-  .project-skills ul {
-    columns: 2;
   }
   .project-img {
     margin: 0;
