@@ -177,8 +177,11 @@ img {
 }
 
 .project-skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: 4rem 0;
-  padding: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .project-skills h3 {
@@ -194,7 +197,9 @@ img {
 }
 
 .project-skills ul {
-  columns: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .project-skills ul li {
@@ -202,6 +207,12 @@ img {
   font-weight: 100;
   list-style: none;
   margin-bottom: 0.5rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.icon-text-label {
+  font-size: 1.2rem;
 }
 
 .skills {
@@ -227,7 +238,7 @@ img {
 .skills-back {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .skills-front h3,
@@ -240,9 +251,11 @@ img {
 
 .skills-front ul,
 .skills-back ul {
-  columns: 3;
+  display: flex;
+  flex-direction: row;
   font-size: 3.2rem;
   font-weight: 100;
+  justify-content: center;
   margin: 2rem 0;
   text-align: center;
 }
@@ -251,6 +264,7 @@ img {
 .skills-back ul li {
   list-style: none;
   margin: 0.5rem 0;
+  padding-right: 2rem;
 }
 
 footer {
