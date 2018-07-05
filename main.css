@@ -297,7 +297,7 @@ footer a {
   padding-top: 2rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .about-text {
     margin: 0 2rem;
     text-align: center;
