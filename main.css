@@ -88,7 +88,6 @@ img {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  padding-top: 4rem;
   width: 100%;
 }
 
@@ -302,6 +301,9 @@ footer a {
   .about-text {
     margin: 0 2rem;
     text-align: center;
+  }
+  .about {
+    padding-top: 4rem;
   }
   .projects {
     margin: 0 2rem;
